@@ -1,0 +1,194 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 60px;
+    border: 1px solid black;
+    margin: 40px;
+
+}
+
+.color-container{
+    
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.color-container-blue{
+    background-color: #2d5dcc;
+    padding: 10px;
+    display: inline-block;
+    width: 180px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: larger;
+    margin-right: 10px;
+    margin-left: 160px;
+}
+.color-container-pink{
+    background-color: #d957d9;
+    padding: 10px;
+    display: inline-block;
+    width: 180px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: larger;
+    margin-right: 10px;
+}
+.color-container-green{
+    background-color: #4fe0b0;
+    padding: 10px;
+    display: inline-block;
+    width: 180px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: larger;
+    margin-right: 10px;
+}
+.color-container-beige{
+    background-color: #efd9ca;
+    display: inline-block;
+    padding: 10px;
+    width: 180px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: larger;
+    margin-right: 10px;
+}
+
+/*'Source Code Pro', monospace 
+'Nunito Sans', sans-serif
+'Poppins', sans-serif*/
+
+.font-container{
+    
+    margin-top: 50px;
+    
+}
+
+.container-sc{
+    font-family: 'Source Code Pro', monospace;
+    padding: 30px;
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 6px;
+    text-align: center;
+    font-size: large;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+.container-ns{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 30px;
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 6px;
+    text-align: center;
+    font-size: large;
+    margin-right: 10px;
+    box-sizing: border-box;
+    margin-left: 180px;
+    border-radius: 4px;
+
+}
+.container-time{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 6px;
+    text-align: center;
+    font-size: large;
+    margin-right: 10px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-left: 400px;
+    border-radius: 4px;
+
+}
+
+p.font-sc{
+    text-decoration: underline;
+    font-size: x-large;
+    background-color: rgb(177, 224, 235);
+}
+
+p.font-ns{
+    text-decoration: underline;
+    font-size: x-large;
+    background-color: rgb(177, 224, 235);
+}
+
+p.font-time{
+    text-decoration: underline;
+    font-size: x-large;
+    background-color: rgb(177, 224, 235);
+}
+
+p.bold{
+    font-weight: bold;
+}
+
+p.italic{
+    font-style: italic;
+}
+
+.container-h1 h1{
+    text-align: left;
+    margin-top: 50px;
+}
+.h1 li{
+    font-weight: 700px;
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.h2 li{
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p li{
+    font-weight: 400px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navig{
+    display: inline-flex;
+    list-style: none;
+    font-size: larger;
+    
+    
+}
+
+.navig .one{
+    padding-right: 10px;
+    
+}
+.navig .two{
+    padding-right: 10px;
+}
+.navig a{
+    color: rgb(20, 20, 20);
+    text-align: center;
+    background-color: rgb(193, 166, 166);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px red;
+}
+
+a:hover{
+    box-shadow: none;
+    text-decoration: none;
+}
